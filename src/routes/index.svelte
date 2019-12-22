@@ -36,7 +36,7 @@
 	<title>Kitebot</title>
 </svelte:head>
 
-<h1>Kitebot</h1>
+<h1>Kitebot Sample</h1>
 
 <figure>
 	<figcaption>WIP :D</figcaption>
