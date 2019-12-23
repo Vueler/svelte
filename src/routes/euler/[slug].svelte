@@ -14,7 +14,7 @@
 </script>
 
 <script>
-	export let post;
+	export let problem;
 </script>
 
 <style>
@@ -54,11 +54,11 @@
 </style>
 
 <svelte:head>
-	<title>{post.title}</title>
+	<title>{problem.title}</title>
 </svelte:head>
 
-<h1>{post.title}</h1>
+<h1>{problem.title}</h1>
 
 <div class='content'>
-	{@html post.html}
+	{@html problem.html}
 </div>

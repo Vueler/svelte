@@ -1,9 +1,9 @@
-import posts from './_posts.js';
+import problems from './_problems.js';
 
-const contents = JSON.stringify(posts.map(post => {
+const contents = JSON.stringify(problems.map(problem => {
 	return {
-		title: post.title,
-		slug: post.slug
+		title: problem.title,
+		slug: problem.slug
 	};
 }));
 
